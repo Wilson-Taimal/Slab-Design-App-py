@@ -2,6 +2,8 @@ from tkinter import *
 vent = Tk()
 vent.geometry("995x845")
 vent.title(" SLAB DESIGN ")
+vent.iconbitmap('D:\\BIBLIOTECA PERSONAL\\Programación\\Python\\logo-wat.ico')
+
 from Ecuaciones import *
 
 # Función calcular
@@ -516,7 +518,7 @@ bot2.place(x=185, y=10, width=120, height=20)
 bot3 = Button(rec5, text = 'Borrar', font='Helvetica 8 bold', command=Borrar );         bot3.pack()
 bot3.place(x=337.5, y=10, width=120, height=20)
 
-label = Label(vent, text = "IEB - Diseños civiles - Obras Especiales - 2023 w.a.t. ", font='Arial 7'); label.pack()
+label = Label(vent, text = "wilson.taimalc@gmail.com - 2023", font='Arial 7'); label.pack()
 label.place(x=500, y=795, width=490, height=10)
 
 vent.mainloop()
