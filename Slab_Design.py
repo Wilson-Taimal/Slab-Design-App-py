@@ -261,7 +261,7 @@ def Guardar():
     Vcy = f_Vc(fiv, fc, b, d);              sheet['D38'] = "%.1f" %Vcy
     ChVcy = f_ChVc(Vuy,Vcy);                sheet['D39'] = ChVcy
 
-    book.save ('D:\IEB_REPORTES\Slab Design.xlsx')
+    book.save ('D:\APP_REPORTES\Slab Design.xlsx')
 
 # Funcion borrar datos
 def Borrar ():
@@ -323,7 +323,7 @@ c1tex05 = Label(rec1, text = "pmín. Cuantía mínima.");              c1tex05.p
 c1tex05.place(x=10, y=130, width=210, height=20)
 c1ent05 = Entry(rec1, justify=CENTER);                              c1ent05.place(x=230, y=130, width=80, height=20)
 
-c1tex06 = Label(rec1, text = "øv. Coeficiente de fricción.");        c1tex06.pack()
+c1tex06 = Label(rec1, text = "øv. Reducción de resitencia cortante.");        c1tex06.pack()
 c1tex06.place(x=10, y=160, width=210, height=20)
 c1ent06 = Entry(rec1, justify=CENTER);                              c1ent06.place(x=230, y=160, width=80, height=20)
 
